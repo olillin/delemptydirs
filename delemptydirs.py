@@ -3,7 +3,7 @@ from sys import argv
 from pathlib import Path
 
 if len(argv) <= 1:
-    print('Usage: delenv <directory>')
+    print('Usage: delemptydirs <directory>')
     exit()
 path = Path(argv[1])
 
